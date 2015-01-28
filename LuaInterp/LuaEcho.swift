@@ -10,9 +10,6 @@
 
 import Foundation
 
-// maybe make this an enum with associated data...
-typealias EvalResult = (code: Int32, results: [String])
-
 class LuaEcho
 {
     let L: COpaquePointer

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BAC135781A79A85700EB6E6B /* LuaEcho.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC135771A79A85700EB6E6B /* LuaEcho.swift */; };
 		C934903219F8173B0010531A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C934903119F8173B0010531A /* AppDelegate.swift */; };
 		C934903419F8173B0010531A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C934903319F8173B0010531A /* ViewController.swift */; };
 		C934903719F8173B0010531A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C934903519F8173B0010531A /* Main.storyboard */; };
@@ -61,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BAC135771A79A85700EB6E6B /* LuaEcho.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuaEcho.swift; sourceTree = "<group>"; };
 		C934902C19F8173B0010531A /* LuaInterp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuaInterp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C934903019F8173B0010531A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C934903119F8173B0010531A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				C934903A19F8173B0010531A /* LaunchScreen.xib */,
 				C934902F19F8173B0010531A /* Supporting Files */,
 				C93490B719F83FA00010531A /* lua-Bridging-Header.h */,
+				BAC135771A79A85700EB6E6B /* LuaEcho.swift */,
 				C93490B819F848F80010531A /* LuaState.swift */,
 			);
 			path = LuaInterp;
@@ -400,6 +403,7 @@
 				C934903219F8173B0010531A /* AppDelegate.swift in Sources */,
 				C934909D19F81CE90010531A /* lmathlib.c in Sources */,
 				C93490A319F81CE90010531A /* ldump.c in Sources */,
+				BAC135781A79A85700EB6E6B /* LuaEcho.swift in Sources */,
 				C93490A219F81CE90010531A /* lfunc.c in Sources */,
 				C93490AD19F81CE90010531A /* lapi.c in Sources */,
 				C93490AB19F81CE90010531A /* lbaselib.c in Sources */,
