@@ -15,7 +15,7 @@ class ViewController: UIViewController, UITextFieldDelegate
     @IBOutlet weak var input: UITextField!
     @IBOutlet weak var output: UITextView!
     
-    let L: LuaState = LuaState()
+    let L: LuaEcho = LuaEcho()
     
 
     
